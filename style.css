@@ -55,7 +55,7 @@ header {
 .btn-contact-me {
 
     padding: 16px 12px;
-    background: #F15B22;
+    background: darkblue;
     border-radius: 5px;
     border: 0;
     font-weight: bold;
@@ -233,4 +233,71 @@ input {
 .icon img {
 
     margin-right: 5px;
+}
+
+.about-us {
+
+    display: flex;
+    background: white;
+    margin: 0 40px;
+    height: 10%;
+    border-radius: 10px;
+     box-shadow: 0px 2.721529483795166px 34.01911544799805px 0px #13173D1A;
+    ;
+}
+
+.about-text {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    padding: 20px;
+}
+
+.about-text h1 {
+
+    text-align: left;
+    margin-bottom: 12px;
+    font-size: 38px;
+    color: #000000CF;
+}
+
+.about-text p {
+
+    color: #00000080;
+}
+.about-text button {
+
+    color: white;
+    padding: 9px 30px;
+    background-color: #FCC028;
+    border-radius: 8px;
+    border: none;
+    font-weight: bold;
+    margin-top: 40px;
+    text-align: center;
+    align-content: center;
+   
+
+}
+
+.about-image {
+    width: 50%;
+    background-repeat: no-repeat;
+
+ 
+
+}
+
+.experience {
+
+    margin-top: 42px;
+    display: flex;
+}
+
+.child {
+
+    margin-right: 100px;
 }
